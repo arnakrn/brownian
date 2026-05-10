@@ -49,7 +49,7 @@ def main():
             f"Закон Эйнштейна подтвержден. msd({expected}) = {msd[-1]:.1f}, ожидалось {expected} +- {tolerance:.0f}")
     else:
         print(
-            "Отклонение слишком велико. msd({expected}) = {msd[-1]:.1f}, ожидалось {expected} +- {tolerance:.0f}")
+            f"Отклонение слишком велико. msd({expected}) = {msd[-1]:.1f}, ожидалось {expected} +- {tolerance:.0f}")
 
 
 if __name__ == "__main__":
